@@ -14,6 +14,7 @@
 		4991583C1EF9BCB900646710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4991583A1EF9BCB900646710 /* LaunchScreen.storyboard */; };
 		499158471EF9BCB900646710 /* TippyCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499158461EF9BCB900646710 /* TippyCalculatorTests.swift */; };
 		499158521EF9BCB900646710 /* TippyCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499158511EF9BCB900646710 /* TippyCalculatorUITests.swift */; };
+		499158601EF9E98800646710 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4991585F1EF9E98800646710 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4991584D1EF9BCB900646710 /* TippyCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		499158511EF9BCB900646710 /* TippyCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyCalculatorUITests.swift; sourceTree = "<group>"; };
 		499158531EF9BCB900646710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4991585F1EF9E98800646710 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				499158311EF9BCB900646710 /* AppDelegate.swift */,
 				499158331EF9BCB900646710 /* ViewController.swift */,
 				499158351EF9BCB900646710 /* Main.storyboard */,
+				4991585F1EF9E98800646710 /* SettingsViewController.swift */,
 				499158381EF9BCB900646710 /* Assets.xcassets */,
 				4991583A1EF9BCB900646710 /* LaunchScreen.storyboard */,
 				4991583D1EF9BCB900646710 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				499158341EF9BCB900646710 /* ViewController.swift in Sources */,
 				499158321EF9BCB900646710 /* AppDelegate.swift in Sources */,
+				499158601EF9E98800646710 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
